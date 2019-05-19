@@ -1,0 +1,8 @@
+<!doctype html><html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>sshdconfig.jinja2</title>
+  <meta name="generator" content="CherryTree">
+  <link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+<body><h2>Sample roles/common/templates/sshdconfig.jinja2</h2><br /><br /><div class="codebox"><div class="codebox">Port&nbsp;{{&nbsp;sshd_port&nbsp;}}<br />Protocol&nbsp;<span style="color:#ff0044;font-weight:400">2</span><br /><br /><span style="color:#0088ff;font-weight:400">#&nbsp;HostKeys&nbsp;for&nbsp;protocol&nbsp;version&nbsp;2</span><br />HostKey&nbsp;/etc/ssh/ssh_host_rsa_key<br />...<br /><br /><span style="color:#0088ff;font-weight:400">#&nbsp;Authentication:</span><br />LoginGraceTime&nbsp;<span style="color:#ff0044;font-weight:400">120</span><br />PermitRootLogin&nbsp;{{&nbsp;ssh_permitrootlogin&nbsp;}}</div></div><p align="center"><img src="images\home.png" height="22" width="22">  <a href="index.html">Index</a></p></body></html>
